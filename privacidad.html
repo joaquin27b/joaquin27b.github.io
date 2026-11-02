@@ -29,7 +29,7 @@
 <body>
 
 <h1>Política de Privacidad — Por Vencer</h1>
-<p class="fecha">Última actualización: 8 de septiembre de 2026</p>
+<p class="fecha">Última actualización: 2 de noviembre de 2026</p>
 
 <p>Esta política describe cómo la aplicación <strong>Por Vencer</strong> trata la información de
 quienes la usan. El responsable de la aplicación es <strong>Joaquín Nelson Da Silva</strong>,
@@ -39,21 +39,24 @@ comercial ARASAKA. Contacto:
 
 <h2>1. Qué datos guarda la aplicación</h2>
 <p>Por Vencer es un recordatorio de vencimientos. Los conceptos, fechas y estados de pago que
-cargás se guardan <strong>únicamente en la memoria de tu dispositivo</strong>, en una base de datos
-local. Esa información:</p>
+cargás se guardan en una base de datos local en tu dispositivo. Esa información:</p>
 <ul>
-  <li>no se envía a ningún servidor,</li>
+  <li>no se envía a ningún servidor del desarrollador,</li>
   <li>no es accesible para el desarrollador,</li>
-  <li>no se comparte con terceros,</li>
-  <li>se elimina por completo al desinstalar la aplicación.</li>
+  <li>no se comparte con terceros ni se usa para publicidad.</li>
 </ul>
+<p><strong>Copia de seguridad de Android.</strong> Si tenés activada la copia de seguridad de
+Android, el sistema puede incluir los datos de la aplicación en la copia de tu cuenta de Google y
+restaurarlos al reinstalarla o al cambiar de teléfono. Esa copia la gestionan Android y Google, se
+rige por sus políticas y el desarrollador no tiene acceso a ella. Podés desactivarla desde los
+ajustes de copia de seguridad del dispositivo.</p>
 <p>La aplicación no pide registro, no crea cuentas y no solicita nombre, correo electrónico,
 teléfono ni ningún otro dato identificatorio.</p>
 
 <h2>2. Datos que no se recopilan</h2>
 <p>Por Vencer no recopila ni transmite: montos de dinero, datos bancarios, medios de pago,
 ubicación, contactos, agenda, fotos, archivos, micrófono ni cámara. La aplicación no incluye
-funciones de copia de seguridad, exportación ni sincronización.</p>
+funciones propias de exportación ni sincronización.</p>
 
 <h2>3. Publicidad</h2>
 <p>La aplicación es gratuita y se financia con publicidad provista por
@@ -79,6 +82,8 @@ personalizados, desde <em>Ajustes → Google → Anuncios</em> en tu dispositivo
   <tr><td><code>INTERNET</code></td><td>Únicamente para descargar los anuncios. Los datos de la aplicación nunca viajan por esta conexión.</td></tr>
   <tr><td><code>ACCESS_NETWORK_STATE</code></td><td>Detectar si hay conexión antes de solicitar un anuncio.</td></tr>
   <tr><td><code>AD_ID</code></td><td>Requerido por el SDK de Google AdMob.</td></tr>
+  <tr><td><code>RECEIVE_BOOT_COMPLETED</code></td><td>Revisar los vencimientos y volver a programar el aviso diario cuando se enciende el teléfono.</td></tr>
+  <tr><td><code>REQUEST_IGNORE_BATTERY_OPTIMIZATIONS</code></td><td>Pedirte una vez, si querés concederlo, que la aplicación quede sin restricciones de batería, para que el sistema no demore los recordatorios. Podés rechazarlo o revocarlo desde los ajustes; en ese caso los avisos pueden llegar más tarde.</td></tr>
 </table>
 
 <h2>5. Menores de edad</h2>
@@ -88,7 +93,8 @@ menores de esa edad.</p>
 <h2>6. Tus derechos</h2>
 <p>Como los datos de la aplicación residen solo en tu dispositivo, tenés control total sobre ellos:
 podés editarlos o eliminarlos desde la propia aplicación, y borrarlos definitivamente
-desinstalándola o usando <em>Ajustes → Aplicaciones → Por Vencer → Almacenamiento → Borrar datos</em>.</p>
+desinstalándola o usando <em>Ajustes → Aplicaciones → Por Vencer → Almacenamiento → Borrar datos</em>.
+Una copia de seguridad de Android que ya exista en tu cuenta de Google se administra desde esa cuenta.</p>
 <p>Para consultas sobre esta política, escribí a
 <a href="mailto:arasaka.soft@gmail.com">arasaka.soft@gmail.com</a>.</p>
 
@@ -99,7 +105,7 @@ nueva fecha de actualización.</p>
 <hr>
 
 <h1 lang="en">Privacy Policy — Por Vencer</h1>
-<p class="fecha" lang="en">Last updated: September 8, 2026</p>
+<p class="fecha" lang="en">Last updated: November 2, 2026</p>
 
 <div lang="en">
 <p>This policy describes how the <strong>Por Vencer</strong> application handles user information.
@@ -109,16 +115,19 @@ based in Buenos Aires, Argentina, trading under the name ARASAKA. Contact:
 
 <h2>1. What the app stores</h2>
 <p>Por Vencer is a due-date reminder. The entries, dates and payment states you enter are stored
-<strong>only on your device</strong>, in a local database. That information is not sent to any
-server, is not accessible to the developer, is not shared with third parties, and is deleted
-entirely when you uninstall the app.</p>
+in a local database on your device. That information is not sent to any server of the developer,
+is not accessible to the developer, and is not shared with third parties or used for advertising.</p>
+<p><strong>Android backup.</strong> If Android backup is turned on, the system may include the app's
+data in the backup of your Google account and restore it when you reinstall the app or move to a new
+phone. That backup is managed by Android and Google under their own policies, and the developer has
+no access to it. You can turn it off in your device's backup settings.</p>
 <p>The app requires no sign-up, creates no accounts, and never asks for your name, email address,
 phone number or any other identifying information.</p>
 
 <h2>2. What is not collected</h2>
 <p>Por Vencer does not collect or transmit monetary amounts, banking details, payment methods,
-location, contacts, calendar, photos, files, microphone or camera data. The app has no backup,
-export or synchronisation features.</p>
+location, contacts, calendar, photos, files, microphone or camera data. The app has no export or
+synchronisation features of its own.</p>
 
 <h2>3. Advertising</h2>
 <p>The app is free and supported by advertising served through <strong>Google AdMob</strong>. To
@@ -134,7 +143,10 @@ under <em>Settings → Google → Ads</em> on your Android device.</p>
 <p><code>POST_NOTIFICATIONS</code> displays due-date reminders, which are generated on the device
 itself. <code>INTERNET</code> and <code>ACCESS_NETWORK_STATE</code> are used solely to request and
 display ads; your app data never travels over that connection. <code>AD_ID</code> is required by the
-Google AdMob SDK.</p>
+Google AdMob SDK. <code>RECEIVE_BOOT_COMPLETED</code> checks due dates and reschedules the daily
+reminder when the phone starts up. <code>REQUEST_IGNORE_BATTERY_OPTIMIZATIONS</code> asks you once,
+if you choose to allow it, to exempt the app from battery restrictions so the system doesn't delay
+your reminders. You can decline or revoke it in settings; reminders may then arrive later.</p>
 
 <h2>5. Children</h2>
 <p>Por Vencer is not directed at children under 13 and does not knowingly collect information from
@@ -143,7 +155,8 @@ children under that age.</p>
 <h2>6. Your rights</h2>
 <p>Because the app's data lives only on your device, you have full control over it. You can edit or
 delete entries within the app, and remove everything permanently by uninstalling it or via
-<em>Settings → Apps → Por Vencer → Storage → Clear data</em>. For questions about this policy,
+<em>Settings → Apps → Por Vencer → Storage → Clear data</em>. An Android backup already stored in
+your Google account is managed from that account. For questions about this policy,
 write to <a href="mailto:arasaka.soft@gmail.com">arasaka.soft@gmail.com</a>.</p>
 
 <h2>7. Changes to this policy</h2>
